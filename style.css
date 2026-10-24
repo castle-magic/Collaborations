@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Verdana, sans-serif;
+    background-color: antiquewhite;
+    color: #222;
+}
+.navbar{
+    height:70px;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1 px solid #ddd;
+    position: sticky;
+    top:0
+}
+.logo{
+    color:aquamarine;
+    font-size: 25px;
+}
+.navbar input{
+width: 40%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 25px;
+font-size: 15px;
+}
+.profile{
+    width:40%;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.container{
+    width: 200px;
+    height:100vh;
+    background-color: white;
+    position: fixed;
+    padding: 20px 12px;
+}
+.container p{
+    padding: 14px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sidebar p:hover {
+    background-color: #eee;
+}
+
+.sidebar hr {
+    margin: 12px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+.content h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+      display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px 18px;
+}
+.content img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.content h3 {
+    font-size: 17px;
+    margin: 10px 0 8px;
+}
+
+.content p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 5px;
+}
